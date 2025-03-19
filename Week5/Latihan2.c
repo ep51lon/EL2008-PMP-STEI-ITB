@@ -26,6 +26,7 @@ int main() {
     fgets(sentence, sizeof(sentence), stdin);
     
     printf("Masukkan kata kunci: ");
+    // fgets(word, sizeof(word), stdin);
     scanf("%s", word);
 
     int occurrences = countOccurrences(sentence, word);
